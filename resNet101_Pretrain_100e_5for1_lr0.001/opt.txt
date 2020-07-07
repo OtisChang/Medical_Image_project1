@@ -1,0 +1,11 @@
+model=resnet101(pretrained=True), Transfering learning
+	epoch=100	
+	init_lr=0.001
+	loss function: cross entropy
+	optimizer: SGD
+	train_accuracy: 1.00
+	train_loss: 0.0204
+	test_accuracy_cnv: 98.4375%
+	test_accuracy_pcv: 98.7500%
+	test_accuracy_all: 98.6111% 
+	Best model name : ./weights/model-1.00-best_train_acc.pth
